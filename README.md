@@ -4,22 +4,19 @@
 chmod u+x nmap-script-finder.rb
 ruby nmap-script-finder.rb
 ```
-
-# RUN
+### RUN
 ```bash
 ./nmap-script-finder.rb -s "http-enum"
 http-enum.nse
 ```
-
-# HELP 
+### HELP 
 ```text
     help :
         --help, -h          show help menus
         --version, -v       version check
         --search, -s        search input string
 ```
-
-# version
+### version
 ```text
 nmap-script-finder [ 1.0 ]
 
